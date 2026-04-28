@@ -13,7 +13,7 @@ This project is a **conceptual research demo** showing a closed cognitive loop b
 ## Features
  
 - Real-time neural signal simulator:
-  - spike trains
+  - spike trains 
   - EEG-like waveform
   - burst detection
   - oscillation bands (alpha, beta, theta, gamma)
