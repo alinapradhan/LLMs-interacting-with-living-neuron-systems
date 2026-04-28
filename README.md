@@ -6,7 +6,7 @@ This project is a **conceptual research demo** showing a closed cognitive loop b
 2. Signal decoding,
 3. AI reasoning,
 4. Simulated neural stimulation output,
-5. Feedback into the next synthetic neural frame. 
+5. Feedback into the next synthetic neural frame.  
 
 > ⚠️ This is **visual simulation only**. It is **not** a medical system, implant, or neurostimulation device.
 
