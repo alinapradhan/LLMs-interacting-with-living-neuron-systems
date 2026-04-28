@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hybrid AI + Living Neuron Demo (Simulation Only)</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="background-grid"></div>
+  <header>
+    <h1>🧠 Hybrid AI + Living Brain Cell Interface</h1>
+    <p class="disclaimer">Demo simulation only — no medical, implant, or real neurostimulation functionality.</p>
+  </header>
+
+  <section class="controls card">
+    <button id="startBtn">Start</button>
+    <button id="pauseBtn">Pause</button>
+    <button id="resetBtn">Reset</button>
+    <button id="replayBtn">Replay Session</button>
+    <button id="autoBtn">Auto Simulation Mode</button>
+    <label>
+      Brain State
+      <select id="brainStateSelect"></select>
+    </label>
+    <div class="status">Loop Status: <span id="runningStatus">Stopped</span></div>
+  </section>
+
+  <main class="grid">
+    <section class="card wide">
+      <h2>Live Neural Waveform</h2>
+      <canvas id="waveCanvas" width="960" height="220"></canvas>
+      <div id="signalMeta" class="small"></div>
+    </section>
+
+    <section class="card">
+      <h2>Decoded Intention</h2>
+      <div id="decoded"></div>
+    </section>
+
+    <section class="card">
+      <h2>AI Internal Thoughts</h2>
+      <div id="aiThoughts"></div>
+    </section>
+
+    <section class="card">
+      <h2>Output Stimulation (Simulated)</h2>
+      <div id="encoded"></div>
+    </section>
+
+    <section class="card">
+      <h2>Memory Chain</h2>
+      <div id="memory"></div>
+    </section>
+
+    <section class="card">
+      <h2>Safety Layer</h2>
+      <div id="safety"></div>
+    </section>
+
+    <section class="card wide">
+      <h2>Live Session Logs</h2>
+      <pre id="logs"></pre>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
