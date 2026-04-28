@@ -11,7 +11,7 @@ This project is a **conceptual research demo** showing a closed cognitive loop b
 > ⚠️ This is **visual simulation only**. It is **not** a medical system, implant, or neurostimulation device.
 
 ## Features
-
+ 
 - Real-time neural signal simulator:
   - spike trains
   - EEG-like waveform
