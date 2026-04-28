@@ -1,4 +1,4 @@
-# Demo-Only Hybrid AI + Living Brain Cell Simulation
+Living Brain Cell Simulation
 
 This project is a **conceptual research demo** showing a closed cognitive loop between:
 
