@@ -1,4 +1,4 @@
-LLMs interacting with living neuron systems
+## LLMs interacting with living neuron systems
 
 This project is a **conceptual research demo** showing a closed cognitive loop between:
 
